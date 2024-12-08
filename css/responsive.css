@@ -1,0 +1,134 @@
+
+
+
+@media only screen and (max-width: 1024px) {
+    /* header area start */
+
+    .header_img{
+        bottom: -450px;
+        right: 0px;
+    }
+    /* header area end */
+
+    /* text area start */
+    .text_areaLeft{
+        padding: 70px 10px;
+    }
+    .text_areaLeft p{
+        margin-top: 30px;
+    }
+    /* text area end */
+}
+@media only screen and (max-width: 768px) {
+    /* header area start */
+    .header_text h2{
+        font-size: 45px;
+    }
+
+    .header_img{
+        bottom: -550px;
+        right: 0px;
+    }
+    /* header area end */
+     /* text area start */
+     .text_areaLeft{
+        padding: 70px 10px;
+    }
+    .text_areaLeft h2{
+        font-size: 30px;
+    }
+    .text_areaLeft p{
+        margin-top: 20px;
+    }
+    /* text area end */
+
+
+    /* powar area start */
+    .power_text h2{
+        font-size: 38px;
+    }
+    /* powar area end */
+}
+@media only screen and (max-width: 425px) {
+    /* header area start */
+    header{
+        height: 700px;
+    }
+    .header_text{
+        margin-top: 80px;
+    }
+    .header_text h2{
+        font-size: 45px;
+    }
+
+    .header_img{
+        bottom: -500px;
+        right: 0px;
+    }
+    /* header area end */
+     /* text area start */
+     .text_areaLeft{
+        margin-top: 90px;
+        padding: 0;
+    }
+    .text_areaRight{
+        margin-top: 10px;
+    }
+    /* text area end */
+     /* powar area start */
+     .power_text h2{
+        font-size: 47px;
+    }
+    /* powar area end */
+}
+
+@media only screen and (max-width: 375px){
+     /* powar area start */
+     .power_text h2{
+        font-size: 40px;
+    }
+    /* powar area end */
+}
+
+@media only screen and (max-width: 320px) {
+    /* header area start */
+    header{
+        height: 600px;
+    }
+    .header_text{
+        margin-top: 50px;
+    }
+    .header_text h2{
+        font-size: 35px;
+    }
+
+    .header_img{
+        bottom: -400px;
+        right: 0px;
+    }
+    /* header area end */
+     /* powar area start */
+     .power_text h2{
+        font-size: 35px;
+    }
+    /* powar area end */
+}
+
+
+/* header area start */
+/* header area end */
+
+/* header area start */
+/* header area end */
+
+/* header area start */
+/* header area end */
+
+/* header area start */
+/* header area end */
+
+/* header area start */
+/* header area end */
+
+/* header area start */
+/* header area end */

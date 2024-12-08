@@ -1,0 +1,378 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,ol,li,header,footer,div,span{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #ffffff;
+   font-family: "Open Sans", sans-serif;
+}
+
+
+/* header area start  */
+
+header{
+    background: url(../img/headerBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+.header_logo{
+    margin-top: 54px;
+}
+
+
+.header_text{
+    margin-top: 350px;
+}
+.header_text h2{
+    font-size: 60px;
+    color: white;
+    font-weight: 300;
+}
+.header_text p{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 25px 15px 0px;
+}
+
+
+.header_buttom{
+    position: relative;
+}
+
+
+.header_img{
+    position:absolute;
+    bottom: -570px;
+    right: 0px;
+}
+
+
+/* header area end */
+
+
+/* text area start */
+.text_areaLeft{
+    padding: 80px 10px;
+}
+
+.text_areaLeft h2{
+    font-weight: 300;
+    color: #222626;
+    font-size: 35px;
+}
+.text_areaLeft p{
+    font-weight: 300;
+    margin-top: 36px;
+    line-height: 24px;
+    color: #959595;
+    font-size: 14px;
+}
+
+.text_areaRight{
+    margin-top: 200px;
+    margin-left: 10px;
+
+}
+.text_areaRight p{
+    font-weight: 300;
+    margin-top: 36px;
+    line-height: 24px;
+    color: #959595;
+    font-size: 14px;
+}
+/* text area end */
+
+
+/* box area start */
+
+.box1{
+    /* height: 280px; */
+    background-color: #f5989d;
+    padding: 0 42px;
+}
+.box1 h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    padding-top: 50px;
+}
+.box1 p{
+    font-size: 14px;
+    color: white;
+    line-height: 24px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+.box1 a{
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+}
+.box1 a i{
+    margin-left: 20px;
+}
+.box2{
+    background-color: #615f7d;
+}
+.box3{
+    background: url(../img/boxImg1.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4{
+    background: url(../img/boxImg2.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box5{
+    background-color: #82ca9c;
+}
+/* box area end */
+
+
+/* details  area start*/
+.details_area{
+    margin: 100px 0 150px;
+}
+.details_area h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: #222626;
+
+}
+
+.detalis_contant{
+    margin-top: 65px;
+}
+.detalis_contant h2{
+    font-size: 13px;
+    font-weight: 600;
+    color: #67676d;
+}
+.detalis_contant p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #959595;
+    margin-top: 30px;
+    line-height: 24px;
+}
+/* details  area end*/
+
+/* power area start */
+.power{
+    background: url(../img/carImg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.power_area{
+    display: inline-block;
+    margin: 450px 0 135px;
+    color: white;
+}
+.power_text h2{
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.power_text p{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0;
+    line-height: 24px;
+}
+.power_text a{
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    display: inline-block;
+}
+.power_text a i{
+    margin-left: 20px;
+}
+/* power area end */
+
+
+/* reasons area start */
+.reasons{
+    background-color: #82ca9c; 
+}
+.details_area{
+    display: inline-block;
+}
+.reasons_area h1{
+    color: white;
+}
+.reasons_contant h2{
+    color: white;
+}
+.reasons_contant p{
+    color: white;
+}
+/* reasons area end */
+
+
+/* buying area start */
+
+.buying1{
+    padding: 47px 0;
+}
+.buying1_contant .buying1_hed a{
+    font-size: 11px;
+    padding: 10px 16px;
+    background-color: #e1e1e1;
+    display: inline-block;
+    border-radius: 10px;
+    color: white !important;
+    text-transform: uppercase;
+    transition: all linear .4s;
+}
+.buying1_contant h4{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 22px;
+    color: #2e3b4e;
+}
+.buying1_contant p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #8297a7;
+    margin: 25px 0;
+    line-height: 24px;
+}
+.buying1_contant .buying1_button a{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 18px 30px;
+    background-color: #82ca9c;
+    display: inline-block;
+    border-radius: 10px;
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all linear .4s;
+}
+.buying1_item{
+    padding: 20px 0;
+}
+.buying1_item img{
+    margin-right: 15px;
+}
+.buying{
+    background-color: #f6f7fa;
+    padding: 104px 0 140px 0;
+}
+
+.buying1{
+    transition: all linear .4s;
+
+}
+.buying1:hover {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: #ffffff;
+    transition: all linear .4s;
+    
+}
+.buying1:hover .buying1_contant .buying1_hed a{
+    background-color: #bd8cbf;
+    transition: all linear .4s;
+}
+
+/* buying area end */
+
+
+/* footer area start */
+footer{
+    background-color: #192431;
+    padding: 125px 0;
+}
+
+.footer_text h2{
+    font-size: 13px;
+    font-weight: 600;
+    color: #f6f7fa;
+}
+.footer_text p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #f6f7fa;
+    margin: 35px 0;
+}
+
+.footer_menu h4{
+    font-size: 14px;
+    color: #f6f7fa;
+    font-weight: 600;
+    margin: 40px 0 30px;
+}
+.footer_menu ul li a{
+    font-size: 13px;
+    color: #f6f7fa;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.footer_text1{
+    margin-bottom: 35px;
+}
+
+.fotter_input form {
+    display: flex;
+}
+.fotter_input form input{
+    width: 80%;
+    display: inline-block;
+    border: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: 0;
+}
+.fotter_input form .fotter_btn{
+    width: 20%;
+    display: inline-block;
+    background-color: #82ca9c;
+    border: none;
+    text-align: center;
+}
+.fotter_input form .fotter_btn a i{
+    color: white;
+    padding: 15px;
+
+}
+
+.fotter_input p{
+    font-size: 13px;
+    font-weight: 300;
+    color: #57697f;
+    margin-top: 10px;
+}
+/* footer area end */
